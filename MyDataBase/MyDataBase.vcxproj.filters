@@ -24,9 +24,6 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Command.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="DBMS.cpp">
       <Filter>소스 파일\DBMS</Filter>
     </ClCompile>
@@ -38,8 +35,8 @@
     <ClInclude Include="DBMS.h">
       <Filter>소스 파일\DBMS</Filter>
     </ClInclude>
-    <ClInclude Include="Command.h">
-      <Filter>소스 파일</Filter>
+    <ClInclude Include="enum.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

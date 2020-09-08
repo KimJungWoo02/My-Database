@@ -6,9 +6,16 @@
 #include <string>
 #include <cstring>
 #include <Windows.h>
+#include <algorithm>
 #include <vector>
-#include <List>
+#include <map>
+#include <io.h>		//파일,폴더등의 관리를 할 때 쓰이는 헤더파일
+
+
+#include "enum.h"
 #pragma warning(disable : 4996)
+
+
 template<class T>
 class Singleton
 {
@@ -25,8 +32,7 @@ template <class T> T* Singleton<T>::instance = nullptr;
 
 using namespace std;
 
-extern void Log(string str);
+extern void Log(string str, TYPE type = TYPE::E_NORMAL, CONSOLECOLOR color = CONSOLECOLOR::WHITE);
 
-#include "Command.h"
 
 #include "DBMS.h"
