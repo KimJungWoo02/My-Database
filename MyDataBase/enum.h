@@ -1,7 +1,7 @@
 #pragma once
 enum class TYPE
 {
-	E_MSG,
+	E_INFO,
 	E_WARNING,
 	E_ERROR,
 	E_SUCCESE,

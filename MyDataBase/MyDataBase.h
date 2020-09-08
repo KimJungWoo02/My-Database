@@ -14,7 +14,22 @@
 
 #include "enum.h"
 #pragma warning(disable : 4996)
+using namespace std;
 
+struct CommandInfo
+{
+	CommandInfo(vector<string> uprcmd, vector<string> originalcmd)
+	{
+		commands = uprcmd;
+		Originalcommands = originalcmd;
+	}
+	CommandInfo()
+	{
+
+	}
+	vector<string> commands;
+	vector<string> Originalcommands;
+};
 
 template<class T>
 class Singleton
@@ -30,7 +45,6 @@ public:
 };
 template <class T> T* Singleton<T>::instance = nullptr;
 
-using namespace std;
 
 extern void Log(string str, TYPE type = TYPE::E_NORMAL, CONSOLECOLOR color = CONSOLECOLOR::WHITE);
 

@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Commands">
-      <UniqueIdentifier>{9fb77ad0-30e0-4c7d-b489-61df013c7594}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\DBMS">
       <UniqueIdentifier>{97d55899-12bb-40e4-be3e-3833d335a671}</UniqueIdentifier>
     </Filter>
